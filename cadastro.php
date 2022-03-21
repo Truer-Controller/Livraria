@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>Livraria</h1>
+                <h1>Cadastro</h1>
                 <form action="cadastro_script.php" method="POST">
                     <div class="form-group">
                         <label for="titulo">Título</label>
