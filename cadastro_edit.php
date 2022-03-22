@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>Livraria</h1>
+                <h1>Alteração no cadastro dos Livros</h1>
                 <form action="edit_script.php" method="POST">
                     <div class="form-group">
                         <label for="titulo">Título</label>
