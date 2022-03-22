@@ -17,7 +17,7 @@ Livraria em PHP
 • [x] Cadastrar Livros <br>
 • [x] Editar Livros <br>
 • [x] Excluir Livros
-# Sobre
+# 💻 Sobre
 
 <p>
 Este projeto foi realizado com a intuição de cadastro, edição e exclusão de livros, foi realizado o desenvolvimento do front-end com os estilos embutidos para que o acesso ao usuario intuitivo e agradavel.
@@ -54,27 +54,27 @@ Nessa rotina você pode pesquisar e filtrar qual o livro desejado e pode manipul
 </div>
 </p>
 
-## Demonstração
+## 📷 Demonstração
 
 <h1 align="center">
 <br>
 <img src="./README/Animação.gif" alt="Animação" width="600">
 </h1>
 
-# Tecnologias
+# 🚀 Tecnologias
 
-<p>PHP</p>
-<p>CSS</p>
-<p>Javascript</p>
-<p>MySQL</p>
-<p>Bootstrap</p>
+<p>✔️ PHP</p>
+<p>✔️ CSS</p>
+<p>✔️ Javascript</p>
+<p>✔️ MySQL</p>
+<p>✔️ Bootstrap</p>
 
 # Pre-requisitos
 
 Antes de começar, será necessario instalar em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Wamp](https://www.wampserver.com/en/), ou o [Xampp](https://www.apachefriends.org/pt_br/download.html) para usuarios de Linux. Além disto é aconselhavel que tenha um editor de texto para auxilio no processo de programação como o [VScode](https://code.visualstudio.com)
 
-### Rodando o Front-End
+### ⚙ Rodando o Front-End
 
 ```bash
 # Clone este repositorio
