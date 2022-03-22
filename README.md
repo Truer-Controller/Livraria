@@ -72,7 +72,8 @@ Nessa rotina você pode pesquisar e filtrar qual o livro desejado e pode manipul
 # Pre-requisitos
 
 Antes de começar, será necessario instalar em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Wamp](https://www.wampserver.com/en/), ou o [Xampp](https://www.apachefriends.org/pt_br/download.html) para usuarios de Linux. Além disto é aconselhavel que tenha um editor de texto para auxilio no processo de programação como o [VScode](https://code.visualstudio.com)
+[Git](https://git-scm.com), [Wamp](https://www.wampserver.com/en/), ou o [Xampp](https://www.apachefriends.org/pt_br/download.html) para usuarios de Linux, a versão utilizada é a PHP/7.4.26 e 
+Apache/2.4.51. Além disto é aconselhavel que tenha um editor de texto para auxilio no processo de programação como o [VScode](https://code.visualstudio.com)
 
 ### ⚙ Rodando o Front-End
 
