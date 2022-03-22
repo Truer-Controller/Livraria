@@ -105,6 +105,14 @@ CREATE TABLE tipo_capa (
     primary key(id)
 );
 
+# Realizando a criação da tabela de tipo insira os valores do tipo de capa dura e cartonada conforme comando abaixo
+
+INSERT into tipo_capa(id, capa)
+VALUES (1, 'Capa Dura')
+
+INSERT into tipo_capa(id, capa)
+VALUES (2, 'Cartonada')
+
 # Vale deixar a observação para a alteração do usuario, caso não esteja utilizando o root, altere no arquivo de conexao.php para o usuario e login utilizado
 ```
 <img src="./README/conexaobd.png" alt="cadastro" width="200">
