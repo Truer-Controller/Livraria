@@ -78,6 +78,8 @@ Apache/2.4.51. Além disto é aconselhavel que tenha um editor de texto para aux
 ### ⚙ Rodando o Front-End
 
 ```bash
+# Após a instalação do Wamp entre aonde o mesmo foi instalado acesse a pasta wamp64 e dentro da mesma entre na pasta "www" e clone seu repositorio neste local
+
 # Clone este repositorio
 $ git clone <https://github.com/Truer-Controller/Livraria.git>
 
@@ -109,10 +111,10 @@ CREATE TABLE tipo_capa (
 # Realizando a criação da tabela de tipo insira os valores do tipo de capa dura e cartonada conforme comando abaixo
 
 INSERT into tipo_capa(id, capa)
-VALUES (1, 'Capa Dura')
+VALUES (1, 'Capa Dura');
 
 INSERT into tipo_capa(id, capa)
-VALUES (2, 'Cartonada')
+VALUES (2, 'Cartonada');
 
 # Vale deixar a observação para a alteração do usuario, caso não esteja utilizando o root, altere no arquivo de conexao.php para o usuario e login utilizado
 ```
