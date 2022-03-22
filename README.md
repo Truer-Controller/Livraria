@@ -8,9 +8,8 @@ Livraria em PHP
 
 <p align="center">
 <a href="#sobre">Sobre</a> •
-<a href="#roadmap">Roadmap</a> •
 <a href="#tecnologias">Tecnologias</a> •
-<a href="#pre requisitos">Pré Requisitos</a>
+<a href="#pre-requisitos">Pré Requisitos</a>
 </p>
 
 ### Features
@@ -70,7 +69,7 @@ Nessa rotina você pode pesquisar e filtrar qual o livro desejado e pode manipul
 <p>MySQL</p>
 <p>Bootstrap</p>
 
-# Pre Requisitos
+# Pre-requisitos
 
 Antes de começar, será necessario instalar em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Wamp](https://www.wampserver.com/en/), ou o [Xampp](https://www.apachefriends.org/pt_br/download.html) para usuarios de Linux. Além disto é aconselhavel que tenha um editor de texto para auxilio no processo de programação como o [VScode](https://code.visualstudio.com)
@@ -83,5 +82,27 @@ $ git clone <https://github.com/Truer-Controller/Livraria.git>
 
 # Após isso abra o serviço do Wamp ou Xampp via aplicativo desktop
 
+# Crie um banco de dados com o nome livraria
+CREATE DATABASE livraria;
+USE livraria;
+
 # Abra o seu banco de dados MySQL para criar a seguinte tabela
+CREATE TABLE livros (
+    cod_livro INT(11) not null auto_increment,
+    titulo VARCHAR(255),
+    autor VARCHAR(255),
+    sinopse VARCHAR(500),
+    tipo INT(1),
+    ISBN INT(50),
+    valor float,
+    primary key(cod_livro)
+);
+
+# Há a necessidade também de criar a tabela de tipo aonde iremos inserir o id do tipo para que quando visualmente o livro seja exibido em tela irá ser visualizado o tipo correto
+CREATE TABLE tipo_capa (
+    id INT(11) not null auto_increment,
+    capa VARCHAR(30),
+    primary key(id)
+);
+
 ```
