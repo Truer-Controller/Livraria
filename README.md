@@ -105,4 +105,6 @@ CREATE TABLE tipo_capa (
     primary key(id)
 );
 
+# Vale deixar a observação para a alteração do usuario, caso não esteja utilizando o root, altere no arquivo de conexao.php para o usuario e login utilizado
 ```
+<img src="./README/conexaobd.png" alt="cadastro" width="200">
